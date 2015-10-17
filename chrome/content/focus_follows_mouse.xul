@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE overlay SYSTEM "chrome://focus_follows_mouse/locale/focus_follows_mouse.dtd">
+<overlay id="focus-follows-mouse-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+    <vbox id="appcontent">
+		<script type="application/x-javascript" src="focus_follows_mouse.js"/>
+	</vbox>
+</overlay>

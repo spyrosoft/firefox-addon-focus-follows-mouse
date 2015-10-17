@@ -1,0 +1,1 @@
+pref('extensions.focus_follows_mouse.disable_url_bar', false);

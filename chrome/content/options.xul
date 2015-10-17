@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<prefwindow id="focus-follows-mouse-preferences-window"
+		title="Focus Follows Input Preferences"
+		xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	<prefpane id="focus-follows-mouse-preferences-pane" label="Preferences">
+		<preferences>
+			<preference id="focus-follows-mouse-disable-url-bar-preference" name="extensions.focus_follows_mouse.disable_url_bar" type="bool" />
+		</preferences>
+		<vbox align="center">
+			<hbox align="center">
+				<checkbox preference="focus-follows-mouse-disable-url-bar-preference" id="focus-follows-mouse-disable-url-bar" />
+				<label control="focus-follows-mouse-disable-url-bar" value="Disable URL bar focus function" />
+			</hbox>
+		</vbox>
+	</prefpane>
+</prefwindow>
