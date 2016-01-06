@@ -5,7 +5,7 @@
 		<em:id>focus-follows-input@spyrosoft.com</em:id>
 		<em:type>2</em:type>
 		<em:name>Focus Follows Input</em:name>
-		<em:version>0.7</em:version>
+		<em:version>0.8</em:version>
 		<em:creator>Bennett Roesch</em:creator>
 		<em:description>A productivity tool which automatically focuses form elements and links.</em:description>
 		<em:aboutURL>chrome://focus_follows_mouse/content/about.xul</em:aboutURL>
@@ -14,7 +14,7 @@
 			<Description>
 				<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
 				<em:minVersion>2.0</em:minVersion>
-				<em:maxVersion>26.*</em:maxVersion>
+				<em:maxVersion>43.*</em:maxVersion>
 			</Description>
 		</em:targetApplication>
 	</Description>
