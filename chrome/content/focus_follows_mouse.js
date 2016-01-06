@@ -112,8 +112,7 @@ var focus_follows_mouse = {
 	focus_hovered_element_if_tag_is_specified : function(event)
 	{
 		var hovered_element = event.target;
-		if (hovered_element.tagName == 'A'
-		|| hovered_element.tagName == 'INPUT'
+		if (hovered_element.tagName == 'INPUT'
 		|| hovered_element.tagName == 'SELECT'
 		|| hovered_element.tagName == 'TEXTAREA'
 		|| hovered_element.tagName == 'BUTTON') {
